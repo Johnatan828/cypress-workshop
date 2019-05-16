@@ -1,0 +1,31 @@
+{
+  "name": "workshop-cypress",
+  "version": "1.0.0",
+  "description": "This is a workshop about Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnatan828/cypress-workshop.git"
+  },
+  "keywords": [
+    "ui-testing",
+    "dojo",
+    "practice",
+    "cypress"
+  ],
+  "author": "johnatan828 <johnatan828@gmail.com> (github.com/johnatan828)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Johnatan828/cypress-workshop/issues"
+  },
+  "homepage": "https://github.com/Johnatan828/cypress-workshop#readme",
+  "dependencies": {
+    "cypress": "^3.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  }
+}
