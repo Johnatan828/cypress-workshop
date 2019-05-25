@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Johnatan828/cypress-workshop#readme",
   "dependencies": {
-    "cypress": "^3.2.0"
+    "cypress": "^3.3.1"
   },
   "devDependencies": {
     "typescript": "^3.4.5"
