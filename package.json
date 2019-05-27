@@ -4,7 +4,8 @@
   "description": "This is a workshop about cypress",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "lint": "tslint --project cypress/tsconfig.json cypress/**/*.ts"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,8 @@
     "cypress": "^3.3.1"
   },
   "devDependencies": {
+    "tslint": "^5.16.0",
+    "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.4.5"
   }
 }
